@@ -1,0 +1,45 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "complx"
+version = "0.1.0"
+description = "Control software for the COMPLX combinatory lipid library platform."
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+  "numpy",
+  "openpyxl",
+  "pandas",
+  "pyqtgraph",
+  "PyQt6",
+  "pyserial",
+]
+
+[project.scripts]
+complx = "main:main"
+
+[tool.setuptools]
+py-modules = [
+  "Elveflow64",
+  "GUI",
+  "composition",
+  "config_manager",
+  "controller",
+  "data_logger",
+  "elveflow_extra",
+  "expel",
+  "lipid_tracker",
+  "main",
+  "microfluidic_controller",
+  "model",
+  "plate_tracker",
+  "pump",
+  "queue_manager",
+  "records",
+  "robot_loader",
+  "robot_sequencer",
+  "status_broker",
+  "status_manager",
+]

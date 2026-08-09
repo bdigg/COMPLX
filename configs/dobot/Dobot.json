@@ -1,0 +1,5 @@
+{
+  "ip": "",
+  "port": "6001",
+  "description": "Set ip to the Dobot controller address for your local network."
+}

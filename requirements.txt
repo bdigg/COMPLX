@@ -1,0 +1,6 @@
+numpy
+openpyxl
+pandas
+pyqtgraph
+PyQt6
+pyserial

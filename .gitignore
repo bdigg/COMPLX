@@ -1,0 +1,27 @@
+# Python caches and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+.venv/
+venv/
+env/
+
+# Local editor settings
+.vscode/
+.idea/
+
+# Runtime state and generated outputs
+temp_state/
+logs/
+FlowData/
+status.json
+run_id.npy
+calib.npy
+
+# User-specific hardware/app selections
+configs/app/last_used.json
+
+# OS metadata
+.DS_Store
+Thumbs.db

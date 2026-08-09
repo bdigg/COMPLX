@@ -1,0 +1,5 @@
+{
+  "id": "",
+  "port": "",
+  "description": "Optional extra pressure controller. Set id and port for your local hardware."
+}

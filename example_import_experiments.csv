@@ -1,0 +1,5 @@
+experiment_name,Screening_A,,,,,,,,
+line1_code,line1_comp,line2_code,line2_comp,line3_code,line3_comp,tfr,frr,volume,repeats
+DOPC5,60,DPPC7,40,None,0,480,60,100,1
+DOPC5,40,DPPC7,60,None,0,480,60,100,1
+DOPC5,20,DPPC7,80,None,0,480,60,100,1
