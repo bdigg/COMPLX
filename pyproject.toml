@@ -22,7 +22,6 @@ complx = "main:main"
 
 [tool.setuptools]
 py-modules = [
-  "Elveflow64",
   "GUI",
   "composition",
   "config_manager",

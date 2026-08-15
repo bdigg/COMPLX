@@ -22,6 +22,10 @@ calib.npy
 # User-specific hardware/app selections
 configs/app/last_used.json
 
+# Third-party vendor files installed locally
+DLL64/
+Elveflow64.py
+
 # OS metadata
 .DS_Store
 Thumbs.db
